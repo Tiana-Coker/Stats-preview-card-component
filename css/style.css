@@ -85,7 +85,7 @@ span{
     
 }
 
-.stats-content{
+.stats-content, .attribution{
     font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -94,7 +94,7 @@ span{
     border-radius:1rem;
 }
 
-.main-content, .stats-content{
+.main-content, .stats-content, .attribution{
   text-align: center;
   
 }
@@ -103,14 +103,17 @@ span{
     padding:1.5rem;
 }
 
-
+aside{
+    margin-top: -50px;
+    padding:10px;
+    font-weight: lighter;
+}
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 1.2rem; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color:var(--Soft-violet); 
 }
 
 
