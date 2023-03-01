@@ -1,3 +1,48 @@
+:root{
+
+    --dark-blue:hsl(233, 47%, 7%);
+    --Dark-desaturated-blue :hsl(244, 38%, 16%);
+    --Soft-violet:hsl(277, 64%, 61%);
+    --White:hsl(0, 0%, 100%);
+    --paragraph-white:hsla(0, 0%, 100%, 0.75);
+    --headings-white:hsla(0, 0%, 100%, 0.6);
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 1.5rem;
+    color: var(--White);
+    background-color: var(--dark-blue);
+}
+
+main{
+    max-width:100vw;
+    width: 60%;
+    margin: 5rem auto;
+    border: 5px solid gold;
+}
+
+.main-container{
+    background-color: var(--Dark-desaturated-blue);
+}
+
+img{
+    width:100%;
+    background-size: cover;
+}
+
+section{
+    border: 5px solid fuchsia;
+}
+.header-image{
+    border: 5px solid dodgerblue;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -5,4 +50,19 @@
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+/*For Tablet Screens*/
+@media screen and (min-width:768px){
+
+
+}
+
+/*For Desktop Screens*/
+@media screen and (min-width:1024px){
+
+
 }
