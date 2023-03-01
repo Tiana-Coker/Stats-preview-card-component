@@ -11,6 +11,8 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    
+    /*font-family: 'Lexend Deca', sans-serif;*/
 }
 
 
@@ -18,30 +20,89 @@ body{
     font-size: 1.5rem;
     color: var(--White);
     background-color: var(--dark-blue);
+    
 }
 
 main{
     max-width:100vw;
-    width: 60%;
+    width: 70%;
     margin: 5rem auto;
-    border: 5px solid gold;
+    /*border: 5px solid gold;*/
+}
+mark{
+    background-color: transparent;
+    color:var(--Soft-violet);
+    font-weight: 700;
+}
+
+
+p{
+    color:var(--paragraph-white);
+    letter-spacing: 0.1em;
+    line-height: 2.1rem;
+    font-size: 1.1rem;
+    padding: 5px 5px 0px 5px;
+}
+
+h1{
+    color:var(--White);
+    font-size: 2.5rem;
+
+}
+
+h1, p{
+    font-family: 'Inter', sans-serif;
+}
+span{
+    display:block;
+    text-transform:uppercase;
+    color: var(--headings-white);
+    letter-spacing: 0.1em;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+}
+.box{
+    color: var(--White);
+    margin:1rem;
+    padding:1rem;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    
+}
+
+.box-3{
+    padding-bottom: 3.5rem;
+}
+.header-image{
+    background-image: url('../images/image-header-mobile.jpg');
+    background-color: var(--Soft-violet);
+    background-blend-mode: overlay;
+    height:200px;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+    /*border: 5px solid dodgerblue;*/
+    
+    
+}
+
+.stats-content{
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .main-container{
     background-color: var(--Dark-desaturated-blue);
+    border-radius:1rem;
 }
 
-img{
-    width:100%;
-    background-size: cover;
+.main-content, .stats-content{
+  text-align: center;
+  
 }
 
-section{
-    border: 5px solid fuchsia;
+.main-content{
+    padding:1.5rem;
 }
-.header-image{
-    border: 5px solid dodgerblue;
-}
+
 
 .attribution { 
     font-size: 11px; 
@@ -58,11 +119,15 @@ section{
 /*For Tablet Screens*/
 @media screen and (min-width:768px){
 
-
+main{
+    width: 50%;
+}
 }
 
 /*For Desktop Screens*/
 @media screen and (min-width:1024px){
-
+main{
+    width: 60%;
+}
 
 }
