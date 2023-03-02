@@ -24,7 +24,8 @@ Users should be able to:
 
 Desktop Preview
 
-![desktop-preview](https://user-images.githubusercontent.com/126303552/222341739-2b59f17e-76e6-4d8d-8372-f06961286234.png)
+![desktop-preview](https://user-images.githubusercontent.com/126303552/222346249-6710bd30-f8a6-43d7-b940-6519392bb513.png)
+
 
 
 
@@ -35,7 +36,8 @@ Desktop Preview
 Mobile Preview
 
 
-![mobile-preview](https://user-images.githubusercontent.com/126303552/222341864-b6615775-2353-4a39-b4c0-e6aab7c846af.png)
+![mobile-preview](https://user-images.githubusercontent.com/126303552/222346350-db212965-c1a7-4f91-8f52-38519bb82c28.png)
+
 
 
 
