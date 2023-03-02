@@ -23,11 +23,21 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop Preview
+
+![desktop-preview](https://user-images.githubusercontent.com/126303552/222331235-a3c7cecd-9e06-43d6-bc00-64d2177703c5.png)
+
+
+
+
+Mobile Preview
+![mobile-preview](https://user-images.githubusercontent.com/126303552/222331393-3f101619-68e2-4f77-a810-6aa686f4c88f.png)
+
+
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Stats Preview Card Component](https://tiana-coker.github.io/Stats-preview-card-component/)
 
 ## My process
 
