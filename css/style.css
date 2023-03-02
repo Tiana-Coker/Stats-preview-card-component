@@ -82,8 +82,9 @@ aside{
 
 .header-image{
     background-image: url('../images/image-header-mobile.jpg');
-    background-color:hsl(278, 39%, 58%);
+    background-color:var(--Soft-violet);
     background-blend-mode: overlay;
+    filter: grayscale(50%);
     height:200px;
     background-size: cover;
     border-radius: 1rem 1rem 0 0;
@@ -183,8 +184,9 @@ p{
 
 .header-image{
     background-image: url('../images/image-header-desktop.jpg');
-    background-color:hsl(278, 39%, 58%);
+    background-color:var(--Soft-violet);
     background-blend-mode: overlay;
+    filter: grayscale(50%);
     height:300px;
     background-size: cover;
     width:100%;
@@ -211,6 +213,8 @@ p{
 
     .header-image{
         width: 95%;
-        background-color:hsl(278, 39%, 58%); 
+        background-color:var(--Soft-violet); 
+        background-blend-mode: overlay;
+        filter: grayscale(50%);
     }
 }
