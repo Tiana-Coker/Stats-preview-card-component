@@ -37,7 +37,7 @@ Mobile Preview
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Stats Preview Card Component](https://tiana-coker.github.io/Stats-preview-card-component/)
 
 ## My process
 
