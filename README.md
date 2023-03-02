@@ -10,7 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -25,13 +24,19 @@ Users should be able to:
 
 Desktop Preview
 
-![desktop-preview](https://user-images.githubusercontent.com/126303552/222331235-a3c7cecd-9e06-43d6-bc00-64d2177703c5.png)
+![desktop-preview](https://user-images.githubusercontent.com/126303552/222341739-2b59f17e-76e6-4d8d-8372-f06961286234.png)
+
+
+
 
 
 
 
 Mobile Preview
-![mobile-preview](https://user-images.githubusercontent.com/126303552/222331393-3f101619-68e2-4f77-a810-6aa686f4c88f.png)
+
+
+![mobile-preview](https://user-images.githubusercontent.com/126303552/222341864-b6615775-2353-4a39-b4c0-e6aab7c846af.png)
+
 
 
 
@@ -48,24 +53,6 @@ Mobile Preview
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
-
-I learnt how to properly center an object in the middle of the webpage using width and margin.
-
-I learnt how to use the background-blend-mode property.
-
-I'm proud of the css rule below because the initial image was in black and white.
-
-```css
-.header-image {
-  background-image: url("../images/image-header-mobile.jpg");
-  background-color: var(--Soft-violet);
-  background-blend-mode: overlay;
-  height: 200px;
-  background-size: cover;
-  border-radius: 1rem 1rem 0 0;
-}
-```
 
 ## Author
 
